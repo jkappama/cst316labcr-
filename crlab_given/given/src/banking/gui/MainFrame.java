@@ -107,7 +107,7 @@ class MainFrame extends JFrame {
 		setSize(400, 250);
 	}
 
-	class DisplayHandler implements ActionListener {
+	private class DisplayHandler implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			List<Account> accounts = null;
 			if (e.getSource() == displayAccountsButton) {
