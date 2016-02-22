@@ -59,9 +59,13 @@ class MainFrame extends JFrame {
 		balanceField = new JTextField(20);
 
 		newAccountButton = new JButton("New Account");
-		JButton depositButton = new JButton("Deposit");
-		JButton withdrawButton = new JButton("Withdraw");
-		JButton saveButton = new JButton("Save Accounts");
+		//JButton depositButton = new JButton("Deposit");
+		depositButton = new JButton("Deposit");
+		//JButton withdrawButton = new JButton("Withdraw");
+		withdrawButton = new JButton("Withdraw");
+		//JButton saveButton = new JButton("Save Accounts");
+		
+		saveButton = new JButton("Save Accounts");
 		displayAccountsButton = new JButton("List Accounts");
 		JButton displayAllAccountsButton = new JButton("All Accounts");
 
