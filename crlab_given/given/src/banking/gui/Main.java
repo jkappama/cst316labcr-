@@ -11,7 +11,8 @@ final class Main {
 	/**
 	 * Private constructor to address STYLE issue.
 	 */
-	private Main() {
+	//private Main() {
+	public Main() {
 	}
 	
 	/**
