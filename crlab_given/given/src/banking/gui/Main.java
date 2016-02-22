@@ -12,7 +12,8 @@ import javax.swing.JFrame;
 	/**
 	 * Private constructor to address STYLE issue.
 	 */
-	private Main() {
+	//private Main() {
+	public Main() {
 	}
 	
 	/**
