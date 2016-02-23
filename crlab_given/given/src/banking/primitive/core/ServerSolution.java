@@ -14,7 +14,8 @@ class ServerSolution implements AccountServer {
 
 	Map<String,Account> accountMap = null;
 
-	public ServerSolution() {
+	// public ServerSolution() {
+	public serverSolution() {
 		accountMap = new HashMap<String,Account>();
 		File file = new File(fileName);
 		ObjectInputStream in = null;
