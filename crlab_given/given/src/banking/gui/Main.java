@@ -21,7 +21,7 @@ import javax.swing.JFrame;
 	 * @param args command-line arguments
 	 * @throws Exception as per typical main specifications
 	 */
-	public static void main(final String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 
 		if (args.length != 1) {
 			System.out.println("Usage: java FormMain <property file>");
