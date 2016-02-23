@@ -14,7 +14,7 @@ class ServerSolution implements AccountServer {
 
 	Map<String,Account> accountMap = null;
 
-	// public ServerSolution() {
+	// public ServerSolution() { #doesn't meet camelCase rule
 	public serverSolution() {
 		accountMap = new HashMap<String,Account>();
 		File file = new File(fileName);
